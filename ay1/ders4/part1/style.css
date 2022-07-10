@@ -1,0 +1,25 @@
+.div{
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+#div1{
+    background-color: cornflowerblue;
+    color: black
+}
+
+#div2{
+    background-color: orange;
+    color: red
+}
+
+#div3{
+    background-color: orchid;
+    color: greenyellow
+}
+
+.new_div{
+    margin-bottom: 20px;
+}

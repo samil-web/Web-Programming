@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.div1{ 
+    width: 150px;
+    height: 150px; 
+    /* border-width: 2px ;
+    border-style: outset;
+    border-color: greenyellow;  */
+    /* margin-top: 100px;
+    /* margin-right: 50px; */
+    /* margin-top: 30px;
+    margin-left: 50px;  */
+    /* padding-left: 200px; */
+    /* padding-top: 100px; */
+    display:inline-block;
+    border: 2px dashed salmon;
+ 
+
+/* solid- duz xett */
+/* dashed - qiriq-qiriq xett  */
+/* dotted - qiriq-qiriq noqte */
+
+/* margin */
+
+    /* her terefden 10px */
+    /* margin: 10px; */
+    /* yuxari-asagi:10px sag-sol:30px */
+    /* margin: 10px 30px; */
+    /* yuxari 10px sag-sol 50px asagi 30px */
+    /* margin: 10px 50px 30px; */
+    /* saat eqrebi istiqametinde yuxari 10px sag 50px asagi 30px sol 40px */
+    /* !!!!Burda problem var */
+    /* margin:10px 10px 30px 50px;      */
+
+/* padding */
+    /* her terefden 10px */
+    /* padding: 10px; */
+    /* yuxari-asagi:10px sag-sol:30px */
+    /* padding: 10px 30px; */
+    /* yuxari 10px sag-sol 50px asagi 30px */
+    /* padding: 10px 50px 30px; */
+    /* saat eqrebi istiqametinde yuxari 10px sag 50px asagi 30px sol 40px */
+    /* padding:10 px 50px 30px 40 px;      */
+
+
+    /* her terefden 10px */
+    /* border-radius: 10px; */
+    /* yuxari-asagi:10px sag-sol:30px */
+    /* border-radius: 10px 30px; */
+    /* yuxaari sol kunc 10px yuxari sag-asagi sol 50px asagi sag 30px */
+    /* border-radius: 10px 50px 30px; */
+    /* saat eqrebi istiqametinde yuxari 10px sag 50px asagi 30px sol 40px */
+    /* border-radius:10 px, 50px, 30px, 40 px;      */
+    border-radius: 50%;
+    /* daire almaq ucun width ve height eyni olmalidir ve border-radius:100% ve ya 50% */
+
+
+/* Colors */
+/* Hexadecimal */
+/* border-color: #fff2; */
+/*  border-color: #0000*/
+/* border-color: #aaaa */
+/* RGB(A) */
+/* border-color:rgb(255,10, 10)  */
+
+/* border-color:rgb(100,0, 10)  */
+
+/* color name */
+border-color: royalblue;
+color: magenta;
+}
