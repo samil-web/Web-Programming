@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin-top: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
