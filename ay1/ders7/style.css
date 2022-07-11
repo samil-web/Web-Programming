@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    height: 70px;
+    background-color: rgb(72, 110, 187);
+}
+
+.fb-logo{
+    float: left;
+    margin-right: 700px;
+}
+
+.navbar .fb-logo h1{
+    color: white;
+    padding-left: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.login {
+    padding-top: 30px;
+   }
+.login input{
+    border-radius: 5px;
+    outline: none;
+    margin-right: 5px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.welcome {
+    text-align: center;
+    border-right: 2px solid black;
+    width: 650px;
+    height: 550px;
+    display: inline-block;
+}
+.welcome h2{
+    margin-top: 55px;
+    font-weight: 400;
+}
+
+.form {
+    display: inline-block;
+    /* text-align: center; */
+    padding-left: 20px;
+}
+
+.welcome .form h2{
+    margin-top: 55px;
+} 
+
+.welcome .form h2+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
+.form input{
+    border: 1px solid black;
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 10px;
+}
+
+
+
+.form>.radio>input {
+    margin-bottom: 15px;
+    width: 50px;
+    height: 10px;
+    
+} 
