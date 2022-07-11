@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-image: url(./img/bg-travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container .navbar {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 100px;
+    color: white;
+}
+
+.container > .navbar > .logo {
+    display: flex;
+    align-items: center;
+}
+
+.container > .navbar > .logo > h1 {
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 10px;
+} 
+
+.container > .navbar > .menu-icon > i {
+    font-size: 22px;
+}
+
+/* ! content */
+
+.container > .content {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .content h2 {
+    font-size: 44px;
+    color: white;
+    margin-bottom: 27px;
+}
+
+.container > .content .search {
+    display: flex;
+    justify-content: center;
+}
+
+.container > .content .search > input {
+    width: 326px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding-left: 14px;
+}
+
+.container > .content .search > input + span {
+    width: 120px;
+    height: 40px;
+    background-color: #FD4F32;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
