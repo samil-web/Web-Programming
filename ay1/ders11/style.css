@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-image: url(./img/bg-travel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container .navbar {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 100px;
+  color: white;
+}
+
+.container > .navbar > .logo {
+  display: flex;
+  align-items: center;
+}
+
+.container > .navbar > .logo > h1 {
+  font-size: 22px;
+  font-weight: 100;
+  margin-left: 10px;
+}
+
+.container > .navbar > .menu-icon > i {
+  font-size: 22px;
+}
+
+/* ! content */
+
+.container > .content {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .content h2 {
+  font-size: 44px;
+  color: white;
+  margin-bottom: 27px;
+}
+
+.container > .content .search {
+  display: flex;
+  justify-content: center;
+}
+
+.container > .content .search > input {
+  width: 326px;
+  height: 40px;
+  outline: none;
+  border: none;
+  padding-left: 14px;
+}
+
+.container > .content .search > input + span {
+  width: 120px;
+  height: 40px;
+  background-color: #fd4f32;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* !section-2 */
+
+.section-2 {
+  height: 530px;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: #EEEEEE;
+  padding-top: 60px;
+}
+
+.section-2 > h4 {
+  font-size: 19px;
+  color: #323232;
+  font-weight: 500;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.section-2 > h4 + p {
+  font-size: 17px;
+  color: #8b8b8b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin-top: 12px;
+}
+
+.section-2 > .cards {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-2 > .cards > .card {
+    width: 24%;
+    background-color: white;
+}
+
+.section-2 > .cards > .card > .img {
+  position: relative;
+}
+
+.section-2 > .cards > .card > .img > img {
+    width: 100%;
+    height: 100%;
+}
+
+.section-2 > .cards > .card > .img > span {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  bottom: 15px;
+  right: 15px;
+}
+
+.section-2 > .cards > .card > .text {
+  padding-top: 20px;
+  padding-left: 22px;
+}
+
+.section-2 > .cards > .card > .text > h4 {
+  font-size: 18px;
+  color: #323232;
+  font-weight: 600;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.section-2 > .cards > .card > .text > h4 + p {
+  margin-top: 20px;
+  width: 204px;
+  height: 75px;
+  line-height: 19px;
+  color: #696969;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
