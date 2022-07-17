@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.useless{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.container > header {
+  background-image: url(./img/focus.jpg);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+}
+
+.container > header > .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > header > .logo > i {
+  font-size: 30px;
+}
+
+.container > header > .logo > i + p {
+  font-size: 40px;
+  line-height: 18px;
+  color: #222222;
+  font-weight: 400;
+  font-family: "Pacifico";
+  margin-left: 10px;
+}
+
+.container > header > h1 {
+    font-size: 36px;
+    line-height: 18px;
+    color: #222222;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.container > header > h1 + div {
+    width: 20px;
+    height: 20px;
+    border-right: 7px solid rgb(221, 189, 189);
+    border-bottom: 7px solid rgb(221, 189, 189);
+    border-radius: 5px;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* ! section-1 */
+
+.container > main > .section-1 {
+    display: flex;
+}
+
+.container > main > .section-1 > .center {
+    margin-top: -250px;
+}
+
+
+.container > main > .section-1 > .left{
+padding: 50px;
+}
+
+.container > main > .section-1 > .left>.left-top{
+  margin-bottom: 60px;
+}
+
+.container > main > .section-1 > .right{
+  padding: 50px;
+  }
+  
+  .container > main > .section-1 > .right>.right-top{
+    margin-bottom: 60px;
+  }
