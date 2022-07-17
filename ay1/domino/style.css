@@ -1,0 +1,160 @@
+body, html {
+  height: 100%;
+}
+
+.topdiv {
+  /* The image used */
+  background-image: url("https://images.pexels.com/photos/269063/pexels-photo-269063.jpeg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topdiv .div1{
+    border: 2px solid black;
+    height: 30px;
+    width: 80px;
+    margin-right: 20px;
+    display: flex;
+}
+
+.topdiv .div1 .subdiv1{
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 49%;
+    padding: 5px;
+}
+
+.topdiv .div1 .subdiv1 .circle{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.topdiv .div1 .subdiv1 .circle1 {
+    align-self: flex-start;
+}
+
+.topdiv .div1 .subdiv1 .circle2 {
+    align-self: flex-end;
+}
+
+.topdiv .div1 .subdiv2 {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    border-left: 1px solid black;
+}
+
+.topdiv .div1 .subdiv2 .top-half{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49%;
+    
+}
+.topdiv .div1 .subdiv2 .bottom-half{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49%;
+}
+
+
+.topdiv .div1 .subdiv2 .top-half .circle{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+   
+}
+
+.topdiv .div1 .subdiv2 .bottom-half .circle{
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+/* !div2 */
+
+.topdiv .div2{
+    border: 2px solid black;
+    height: 30px;
+    width: 90px;
+    display: flex;
+}
+
+.topdiv .div2 .subdiv3{
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 49%;
+    padding: 2px;
+}
+
+.topdiv .div2 .subdiv3 .circle{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+   
+}
+
+.topdiv .div2 .subdiv3 .circle.circle8{
+    align-self: center;
+}
+
+.topdiv .div2 .subdiv3 .circle.circle9{
+    align-self: flex-end;
+}
+
+.topdiv .div2 .subdiv4 {
+    width: 49%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.topdiv .div2 .subdiv4 .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 49%;
+}
+.topdiv .div2 .subdiv4 .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 49%;
+}
+
+.topdiv .div2 .subdiv4 .top .circle{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.topdiv .div2 .subdiv4 .bottom .circle{
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+}
