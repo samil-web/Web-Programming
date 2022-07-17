@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.useless {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.container > header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.container > header > .header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > header > .header-top > .logo {
+    color: white;
+    text-transform: uppercase;
+}
+
+.container > header > .header-top > nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.container > header > .header-top > nav > a:not(:last-child) {
+    margin-right: 25px;
+}
+
+.container > header > .header-top > nav > a:first-child {
+    border-bottom: 2px solid white;
+}
+
+.container > header > .header-top > nav > a:nth-child(3) > i{
+    margin-left: 8px;
+}
+
+/* ! header-bottom */
+
+.container > header > .header-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    position: relative;
+}
+
+.container > header > .header-bottom > h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 44px;
+    margin-top: 160px;
+}
+
+.container > header > .header-bottom > h1 + p {
+    color: #ffffff;
+}
+
+.container > header > .header-bottom > h1 + p + span {
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.container > header > .header-bottom > .left {
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    left: 12.5%;
+}
+
+.container > header > .header-bottom > .left > div {
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+.container > header > .header-bottom > .right {
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    right: 12.5%;
+}
+
+.container > header > .header-bottom > .right > div {
+    width: 10px;
+    height: 10px;
+    border-left: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+}
+ 
+.container .section1{
+    width:1600px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+.container .section1 .row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .section1 .row1 .left{
+padding-left: 215px;
+padding-top: 138px;
+margin-right: 130px;
+font-size: 24px;
+line-height: 17px;
+color: #252525;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.container .section1 .row1 .right{
+    padding-right: 215px;
+    padding-top: 138px;
+    
+    /* width: 570px;
+    height: 74px; */
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: left;
+    
+}
+
+.container .section2{
+    width:1600px;
+    height: 1360px;
+}
+.container .section2 .row2 .top .title{
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 24px;
+line-height: 17px;
+color: #252525;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.container .section2 .row2 .title{
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+line-height: 17px;
+color: #252525;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.container .section2 .row2 .top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container .section2 .row2 .top .post1{
+    padding-left: 215px;
+}
+
+
+.container .section2 .row2 .top .post2{
+    padding-right: 215px;
+}
+
+.container .section2 .row2 .bottom .post3{
+    padding-left: 215px;
+}
+
+
+.container .section2 .row2 .bottom .post4{
+    padding-right: 215px;
+}
+.container .section2 .row2 .bottom{
+    display: flex;
+    justify-content: space-around;
+    /* margin-bottom: 160px; */
+}
+
+
+.container .section2 .row2 .newsletter1{
+    padding-left: 215px;
+    padding-right: 215px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    margin-top: 100px;
+    padding: 100px 70px;
+    background-color: grey;
+}
+
+.container .section2 .row2 .newsletter1 p{
+    margin-right: 55px;
+}
+
+.container .section2 .row2 .newsletter1 input{
+    width: 430px;
+    height: 56px;
+}
+
+.container .section2 .row2 .newsletter1 button{
+    width:170px;
+    height: 60px;
+}
+
+.container footer{
+    margin-top:323px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 130px;
+}
+
+.container footer .about h4{
+font-size: 18px;
+line-height: 17px;
+color: #000000;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+.container footer .about p{
+    width: 200px;
+    height: 110px;
+font-size: 14px;
+line-height: 22px;
+color: #9e9e9e;
+font-weight: 400;
+font-family: "Open Sans";
+}
+
+.container footer .contact h4{
+    font-size: 18px;
+line-height: 17px;
+color: #000000;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+.container footer .contact p{
+    width: 200px;
+height: 110px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #9e9e9e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    }
+
+.container footer .last-tweet h4{
+    font-size: 18px;
+line-height: 17px;
+color: #000000;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+.container footer .last-tweet p{
+    width: 200px;
+height: 110px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #9e9e9e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    }
+
+.container footer .newsletter2 h4{
+    font-size: 18px;
+line-height: 17px;
+color: #000000;
+font-weight: 600;
+font-family: "Open Sans";
+}
+
+.container footer .newsletter2 p{
+    width: 200px;
+height: 110px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #9e9e9e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    }
+/* 
+.container footer .copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container footer .copyright .pages{
+    display: flex;
+    justify-content: space-between; 
+} */
