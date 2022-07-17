@@ -1,0 +1,556 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.useless {
+  padding-left: 16.5%;
+  padding-right: 16.5%;
+}
+
+.text-styling {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container > .header {
+  width: 1400px;
+  height: 700px;
+  padding-top: 50px;
+
+  background-image: url("./img/Golden-One\ Page\ Web\ Template.jpg");
+}
+
+.container > .header > .top-header {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > .header > .top-header > .logo > h3 {
+  font-size: 26px;
+  letter-spacing: 1px;
+  line-height: 41px;
+  color: #fed136;
+  font-family: "Wisdom";
+}
+
+.container > .header > .top-header > nav > a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 41px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container > .header > .top-header > nav > a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.container > .header > .bottom-header {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > .header > .bottom-header > .more {
+  height: 65px;
+  width: 240px;
+  background-color: gold;
+  border-color: transparent;
+}
+
+.container > .header > .bottom-header > .more > span {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.container > .header > .bottom-header > p {
+  margin-bottom: 50px;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif";
+  text-align: center;
+}
+
+.container > .header > .bottom-header > h1 {
+  margin-bottom: 60px;
+  font-size: 75px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container > #section1 {
+  width: 1400px;
+  height: 568px;
+}
+.container > main > #section1 > .services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.container > main > #section1 > .pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 120px;
+}
+
+.container > main > #section1 > .pictures > .e-commerce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.container > main > #section1 > .pictures > .e-commerce > img {
+  padding-bottom: 25px;
+}
+
+.container > main > #section1 > .pictures > .e-commerce > h4 {
+  padding-bottom: 22px;
+}
+
+.container > main > #section1 > .pictures > .responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.container > main > #section1 > .pictures > .responsive > img {
+  padding-bottom: 25px;
+}
+
+.container > main > #section1 > .pictures > .responsive > h4 {
+  padding-bottom: 22px;
+}
+
+.container > main > #section1 > .pictures > .web {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > main > #section1 > .pictures > .web > img {
+  padding-bottom: 22px;
+}
+
+.container > main > #section1 > .pictures > .web > h4 {
+  padding-bottom: 25px;
+}
+
+.container > main > #section2 {
+  background-color: rgb(247, 247, 247);
+  margin-bottom: 120px;
+  padding-bottom: 120px;
+}
+
+.container > main > #section2 > .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 120px;
+  margin-bottom: 80px;
+}
+
+.container > main > #section2 > .text > h4 {
+  padding-bottom: 22px;
+}
+
+.container > main > #section2 > .pictures {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+}
+
+.container > main > #section2 > .pictures > .pic1 {
+  grid-area: 1/1/2/2;
+  margin-bottom: 10px;
+}
+
+.container > main > #section2 > .pictures > .pic2 {
+  grid-area: 1/2/2/3;
+  margin-bottom: 10px;
+}
+
+.container > main > #section2 > .pictures > .pic3 {
+  grid-area: 1/3/2/4;
+  margin-bottom: 10px;
+}
+
+.container > main > #section2 > .pictures > .pic4 {
+  grid-area: 2/1/3/2;
+}
+
+.container > main > #section2 > .pictures > .pic5 {
+  grid-area: 2/2/3/3;
+}
+
+.container > main > #section2 > .pictures > .pic6 {
+  grid-area: 2/3/3/4;
+}
+
+.container > main > #section2 > .pictures > .pic1,
+.container > main > #section2 > .pictures > .pic2,
+.container > main > #section2 > .pictures > .pic3,
+.container > main > #section2 > .pictures > .pic4,
+.container > main > #section2 > .pictures > .pic5,
+.container > main > #section2 > .pictures > .pic6 {
+  margin-bottom: 150px;
+  width: 32%;
+}
+.container > main > #section2 > .pictures > .pic1,
+.container > main > #section2 > .pictures > .pic2,
+.container > main > #section2 > .pictures > .pic3,
+.container > main > #section2 > .pictures > .pic4,
+.container > main > #section2 > .pictures > .pic5,
+.container > main > #section2 > .pictures > .pic6 {
+  margin-right: 10px;
+}
+
+.container > main > #section2 > .pictures > .pic1 > .text-area1,
+.container > main > #section2 > .pictures > .pic2 > .text-area2,
+.container > main > #section2 > .pictures > .pic3 > .text-area3,
+.container > main > #section2 > .pictures > .pic4 > .text-area4,
+.container > main > #section2 > .pictures > .pic5 > .text-area5,
+.container > main > #section2 > .pictures > .pic6 > .text-area6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 23%;
+  width: 290px;
+  background-color: white;
+}
+
+.container > main > #section3 {
+  height: 1660px;
+  display: flex;
+}
+
+.container > main > #section3 {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 5;
+}
+
+/* .container >main >#section3 >.beginning,
+.container >main >#section3 >.pic1,
+.container >main >#section3 >.empty1,
+.container >main >#section3 >.startup,
+.container >main >#section3 >.pic2,
+.container >main >#section3 >.empty2,
+.container >main >#section3 >.darkdays,
+.container >main >#section3 >.pic3,
+.container >main >#section3 >.empty3,
+.container >main >#section3 >.triumph,
+.container >main >#section3 >.pic4,
+.container >main >#section3 >.empty4,
+.container >main >#section3 >.continue,
+.container >main >#section3 >.empty5,
+.container >main >#section3 >.empty6
+{
+    border: 1px solid black;
+        width: 33%;
+} */
+
+.container > main > #section3 > .beginning {
+  grid-area: 1/1/2/2;
+  margin-bottom: 10px;
+}
+
+.container > main > #section3 > .pic1 {
+  grid-area: 1/2/2/3;
+  margin-bottom: 10px;
+}
+
+.container > main > #section3 > .empty1 {
+  grid-area: 1/3/2/4;
+  margin-bottom: 10px;
+}
+
+.container > main > #section3 > .startup {
+  grid-area: 2/3/3/4;
+  margin-bottom: 10px;
+}
+
+.container > main > #section3 > .pic2 {
+  grid-area: 2/2/3/3;
+  margin-bottom: 10px;
+}
+
+.container > main > #section3 > .empty2 {
+  grid-area: 2/1/3/2;
+}
+
+.container > main > #section3 > .darkdays {
+  grid-area: 3/1/4/2;
+}
+
+.container > main > #section3 > .pic3 {
+  grid-area: 3/2/4/3;
+}
+.container > main > #section3 > .empty3 {
+  grid-area: 3/3/4/4;
+}
+
+.container > main > #section3 > .triumph {
+  grid-area: 4/3/5/4;
+}
+
+.container > main > #section3 > .pic4 {
+  grid-area: 4/2/5/3;
+}
+
+.container > main > #section3 > .empty4 {
+  grid-area: 4/1/5/2;
+}
+
+.container > main > #section3 > .continue {
+  grid-area: 5/2/6/3;
+  width: 150px;
+  height: 150px;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: yellow;
+}
+
+.container > main > #section3 > .continue > h5 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > main > #section3 > .empty5 {
+  grid-area: 5/1/6/2;
+}
+
+.container > main > #section3 > .empty6 {
+  grid-area: 5/3/6/4;
+}
+
+.container > main > #section4 {
+  height: 818px;
+}
+
+.container > main > #section4 > .team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 185px;
+}
+
+.container > main > #section4 > .team-members {
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 1;
+  margin-bottom: 55px;
+}
+
+.container > main > #section4 > .team-members > .marketer {
+  grid-area: 1/1/2/2;
+  text-align: center;
+}
+
+/* .container >main >#section4 >.team-members >.marketer > */
+
+.container > main > #section4 > .team-members > .coder {
+  grid-area: 1/2/2/3;
+  text-align: center;
+}
+
+.container > main > #section4 > .team-members > .designer {
+  grid-area: 1/3/2/4;
+  text-align: center;
+}
+
+.container > main > #section4 > .team-members > .marketer > .pic1 {
+  width: 223px;
+  height: 223px;
+  border: 1px solid transparent;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.container > main > #section4 > .team-members > .marketer > p {
+  text-align: center;
+  width: 223px;
+  margin-bottom: 15px;
+}
+
+.container > main > #section4 > .team-members > .coder > .pic2 {
+  width: 223px;
+  height: 223px;
+  border: 1px solid transparent;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.container > main > #section4 > .team-members > .coder > p {
+  text-align: center;
+  width: 223px;
+  margin-bottom: 15px;
+}
+
+.container > main > #section4 > .team-members > .designer > .pic3 {
+  height: 223px;
+  width: 223px;
+  border: 1px solid transparent;
+  background-color: black;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.container > main > #section4 > .team-members > .designer > p {
+  text-align: center;
+  width: 223px;
+  margin-bottom: 15px;
+}
+/* 
+.container >main >#section4 >.team-members >.coder >.soc1 {
+    width: 223px;
+} */
+
+.container > main > #section4 > .last-words {
+  text-align: center;
+  padding-bottom: 120px;
+}
+
+.container > main > #section5 > .icons {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.container > main > #section6 > .contact-us {
+  background-color: rgb(34, 34, 34);
+  padding-bottom: 110px;
+}
+
+.container > main > #section6 > .contact-us > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  padding-top: 110px;
+  margin-bottom: 90px;
+  font-size: 50px;
+  color: white;
+  font-family: poppins, sans-serif;
+  text-transform: uppercase;
+}
+
+.container > main > #section6 > .contact-us > .send-email {
+  display: flex;
+  justify-content: center;
+}
+
+.container > main > #section6 > .contact-us > .send-email > .infos {
+  display: flex;
+  flex-direction: column;
+  margin-right: 45px;
+}
+
+.container
+  > main
+  > #section6
+  > .contact-us
+  > .send-email
+  > .infos
+  > input:not(:last-child) {
+  margin-bottom: 5px;
+}
+.container > main > #section6 > .contact-us > .send-email > .infos > input {
+  width: 445px;
+  height: 50px;
+  padding: 15px 20px;
+}
+
+.container > main > #section6 > .contact-us > .send-email {
+  display: flex;
+  justify-content: center;
+}
+.container > main > #section6 > .contact-us > .send-email > .comment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container
+  > main
+  > #section6
+  > .contact-us
+  > .send-email
+  > .comment
+  > textarea {
+  padding: 15px 20px;
+  margin-left: 45px;
+  width: 445px;
+  height: 250px;
+}
+
+.container > main > #section6 > .contact-us > .send {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container > main > #section6 > .contact-us > .send > button {
+  width: 290px;
+  height: 70px;
+  background-color: rgb(254, 209, 54);
+  color: white;
+  border-radius: 50px;
+  border-color: transparent;
+  font-size: 21px;
+}
+
+.container > main > #section6 > .contact-us > .send > button:hover {
+  background-color: rgb(199, 190, 190);
+  color: black;
+  transition: 0.5s;
+  -webkit-transform: scale(1.05);
+}
+
+.container > footer {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container > footer > p {
+  margin-right: 120px;
+}
+
+.container > footer > .empty {
+  width: 32%;
+}
