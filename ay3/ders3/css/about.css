@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container >header{
+    height: 800px;
+    background-image: url("./carousel-2.jpg")
+}
+
+.container >header >.header-top{
+    /* width: 25%; */
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.container >header >.header-top>h1{
+    color: orange;
+}
+
+.container >header >.header-top>h1>span{
+    color: green;
+}
+ 
+.container >header >.header-top >nav >ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 12px;
+}
+
+.container >header >.header-top >nav >ul >li >a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+    z-index: 2;
+}
+
+
+.flex{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.container >header >.header-top >nav >ul >li >a >span{
+    color: orange;
+}
+
+.container >.section2{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.container >.section2 >.girl{
+    margin-right: 30px;
+}
+
+.container >.section2 >.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container >.section2 >.text >span{
+    color: greenyellow;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container >.section2 >.text >button{
+    border: 1px solid transparent;
+    background-color: orange;
+    color:white ;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.container >.section2 >.text >span+span{
+    display: block;
+    font-size: 50px;
+    color: black;
+}
+
+.container >.section2 >.text >p{
+    font-size: 20px;
+}
+
+.container > .section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+    background-color: rgb(245,245,245);
+    height: 600px;
+}
+
+.container > .section4 >.burgers{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 32%;
+    height: 55%;
+    text-align: center;
+    background-color: white;
+
+}
+
+.container > .section4 >.snacks{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 32%;
+    height: 55%;
+    text-align: center;
+    background-color: white;
+}
+
+.container > .section4 >.beverage{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 32%;
+    height: 55%;
+    text-align: center;
+    background-color: white;
+}
+
+.container > .section4 span{
+    color: orange;
+}
+.container >.section10{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+
+    background-color: rgb(245,245,245);
+}
+
+.container >.section10 .head{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container >.section10 >.newsletter >.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+
+.container >.section10 >.newsletter >.subscribe> input{
+    border: 2px solid orange;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container >.section10 >.newsletter >.subscribe>button{
+    width: 30%;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
