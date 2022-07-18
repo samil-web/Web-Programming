@@ -1,0 +1,438 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.pad-side {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.pad-top {
+  padding-top: 115px;
+}
+
+.heading-margin {
+  margin-bottom: 55px;
+}
+
+.text-margin {
+  margin-bottom: 25px;
+}
+
+.container > header {
+  background-color: rgb(135, 80, 156);
+}
+
+.container > header > .header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  padding-top: 55px;
+}
+
+.container > header > .header-top > ul {
+  display: flex;
+}
+
+.container > header > .header-top > ul > li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.container > header > .header-top > ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Titillium Web";
+}
+
+.container > header > .header-bottom {
+  text-align: center;
+}
+
+.container > header > .header-bottom > p {
+  font-size: 42px;
+  line-height: 49px;
+  color: #f7f3ea;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.container > header > .header-bottom > button {
+  height: 70px;
+  width: 290px;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Titillium Web";
+  background-color: rgb(235, 125, 75);
+  margin-bottom: 145px;
+}
+
+.container > .section1 {
+  background-color: rgb(23, 194, 164);
+}
+
+.container > .section1 > .services {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+.container > .section1 > .txt {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.container > .section1 > .service-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.container > .section1 > .service-list .heading {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Titillium Web";
+}
+
+.container > .section1 > .service-list .text {
+  margin-bottom: 130px;
+}
+
+.container > .section2 {
+  background-color: rgb(231, 241, 248);
+}
+
+.container > .section2 > .meet {
+  font-size: 41px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  color: #3c4761;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.container > .section2 > .txt {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #3c4761;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.container > .section2 > .team {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > .section2 > .team .pic {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(135, 135, 135);
+  border: 1px solid transparent;
+  border-radius: 50%;
+}
+
+.container > .section2 > .team > .persons {
+  text-align: center;
+}
+.container > .section2 > .team > .persons > p {
+  margin-top: 40px;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #27283d;
+  font-weight: 700;
+  font-family: "Titillium Web";
+}
+
+.container > .section2 > .team > .persons > span {
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #30bae7;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container > .section2 > .team > .persons > .text {
+  margin-top: 30px;
+  width: 204px;
+  height: 192px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #3c4761;
+  font-weight: 300;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+.container > .section3 > .we {
+  font-size: 40px;
+  letter-spacing: 4px;
+  line-height: 30px;
+  color: #3c4761;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  text-align: center;
+}
+
+.container > .section3 > .txt {
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: #3c4761;
+  font-weight: 400;
+  font-family: "Titillium Web";
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.container > .section3 > .skills {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.container > .section3 > .skills .circle {
+  height: 160px;
+  width: 160px;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  border-color: yellow;
+}
+
+.container > .section3 > .skills p {
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  color: #3c4761;
+  font-weight: 700;
+  font-family: "Titillium Web";
+  margin-bottom: 130px;
+}
+
+.container > .section4 {
+  background-color: rgb(255, 221, 153);
+}
+
+.container > .section4 > .portfolio > p {
+  text-align: center;
+}
+
+.container > .section4 > .portfolio > .buttons {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.container > .section4 > .portfolio > .buttons > button {
+  width: 87px;
+  height: 39px;
+  background-color: rgb(235, 201, 133);
+}
+
+.container > .section4 > .works {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  margin-bottom: 80px;
+}
+
+.container > .section4 > .works > .iso {
+  grid-area: 1/1/2/2;
+}
+
+.container > .section4 > .works > .time {
+  grid-area: 1/2/2/3;
+}
+
+.container > .section4 > .works > .viro {
+  grid-area: 2/1/3/2;
+}
+
+.container > .section4 > .works > .blog {
+  grid-area: 2/2/3/3;
+}
+
+.container > .section4 > .button{
+  text-align: center;
+  padding-bottom: 110px;
+}
+
+.container > .section4 > .button >button{
+  text-align: center;
+  width: 290px;
+  height: 70px;
+  background-color: rgb(23, 194, 164);
+  color: white;
+}
+
+.container > .section5 {
+  background-color: rgb(215, 70, 128);
+  padding-bottom: 130px;
+  color: white;
+}
+
+.container > .section5 > .text > p {
+  text-align: center;
+}
+
+.container > .section5 > .text > p + p {
+  margin-bottom: 70px;
+}
+
+.container > .section5 > .clients {
+  display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  margin-bottom: 80px;
+}
+
+.container > .section5 > .clients > .client1 {
+  grid-area: 1/1/2/2;
+}
+
+.container > .section5 > .clients > .client2 {
+  grid-area: 1/2/2/3;
+}
+
+.container > .section5 > .clients > .client3 {
+  grid-area: 2/1/3/2;
+}
+
+.container > .section5 > .clients > .client4 {
+  grid-area: 2/2/3/3;
+}
+
+.container > .section5 > .clients .pic {
+  width: 100px;
+  height: 100px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  background-color: rgb(120, 120, 120);
+  margin-right: 50px;
+}
+
+.container > .section5 > .clients > .client1,
+.container > .section5 > .clients > .client2,
+.container > .section5 > .clients > .client3,
+.container > .section5 > .clients > .client4 {
+  display: flex;
+  margin-right: 50px;
+}
+
+.container > .section5 > .clients > .client1,
+.container > .section5 > .clients > .client2 {
+  margin-bottom: 145px;
+}
+
+.container > .section6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 84, 153);
+  color: white;
+}
+
+.container > .section6 > .touch{
+  margin-bottom: 75px;
+}
+
+.container > .section6 > .touch > p {
+  text-align: center;
+}
+
+.container > .section6 > .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > .section6 > .form > .inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  width:100%;
+  height: 100%;
+}
+
+
+.container > .section6 > .form > .inputs >input{
+  width: 410px;
+  height: 52px;
+  background-color: rgb(39,58,113);
+  margin-right: 30px;
+  padding: 20px;
+}
+
+.container > .section6 > .form > .textarea {
+  margin-bottom: 55px;
+}
+
+.container > .section6 > .form > .textarea >textarea {
+background-color: rgb(39, 58, 113);
+width: 860px;
+height: 200px;
+padding: 20px;
+}
+
+
+.container > .section6 > .form > .button{
+  text-align: center;
+}
+
+.container > .section6 > .form > .button >button{
+  background-color: rgb(46, 177, 219);
+  margin-bottom: 115px;
+  width: 290px;
+  height: 70px; 
+  color: white;
+}
+
+.container >footer{
+background-color: rgb(52,75,142);
+}
+.container >.footer >ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container >.footer >ul >li{
+  list-style: none;
+}
+.container >.footer >ul >li >a{
+  text-decoration: none;
+  color: white;
+}
