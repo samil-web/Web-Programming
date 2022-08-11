@@ -1,0 +1,8 @@
+.baccol {
+    background-color: black!important;
+}
+
+#filter-result>li{
+    width: 100px;
+    height: 40px;
+}
