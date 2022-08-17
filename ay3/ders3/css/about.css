@@ -6,7 +6,8 @@
 
 .container >header{
     height: 800px;
-    background-image: url("./carousel-2.jpg")
+    background-image: url("./../img/carousel-2.jpg");
+    background-size: cover;
 }
 
 .container >header >.header-top{

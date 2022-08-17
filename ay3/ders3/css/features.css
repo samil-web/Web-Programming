@@ -230,6 +230,8 @@
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
+    outline: none;
+    border: 1px solid transparent;
 }
 
 .container >.navigation >.newsletter >.submit >.button >button{

@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.width{
+    margin-right: 100px;
+    width: 18%;
+}
+
+.radius{
+    border-radius: 30px 30px 0 0 ; 
+    }
+
+    .pad-side{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+    .pad-top{
+        padding-top: 5%;
+    }
+
+.container > header{
+    background-image: url(./../img/page-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container > header >.header-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.container > header >.header-top >.logo{
+    padding: 20px;
+    font-size: 44px;
+    color: orange;
+}
+.container > header >.header-top >.logo >span{
+    color: green;
+}
+.container > header >.header-top >ul{
+    padding: 30px;
+    list-style: none;
+    display: flex;
+}
+.container > header >.header-top >ul >li{
+    margin-right: 20px;
+}   
+
+.container > header >.header-top >ul >li >a >span{
+    color: orange;
+}
+.container > header >.header-top >ul >li >a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.container >header >.header-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+}
+
+.container >header >.header-bottom >h1{
+    font-size: 100px;
+    color: orange;
+}
+.container >header >.header-bottom >p{
+    font-size: 30px;
+    color: white;
+}
+
+.container >.section6{
+    margin-bottom: 50px;
+}
+
+.container >.section6 >.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container >.section6 >.text > span{
+    color: yellowgreen;
+}
+
+.container >.section6 >.text >span +span{
+    color: rgb(69,69,69);
+    font-size: 50px;    
+}
+
+.container >.section6 >.chefs{
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;   
+    padding-right: 5%;
+}
+
+.container >.section10{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    background-color: rgb(245,245,245);
+    height: 400px;
+}
+
+.container >.section10 .head{
+    color: orange;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container >.section10 >.address{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container >.section10 >.address >.location{
+    display: flex;
+}
+.container >.section10  >.links >.list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.container >.section10 >.newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container >.section10 >.newsletter >.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.container >.section10 >.newsletter >.subscribe> input{
+    border: 2px solid transparent;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.container >.section10 >.newsletter >.subscribe>button{
+    width: 30%;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.container >footer{
+    text-align: center;
+}

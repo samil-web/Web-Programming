@@ -5,8 +5,13 @@
 }
 .container >header{
     height: 800px;
-    background-image: url("./carousel-2.jpg")
+    background-image: url('./../img/carousel-2.jpg');
+    background-size: cover;
+
 }
+/* .container >header >img{
+    
+} */
 
 .container >header >.header-top{
     /* width: 25%; */
@@ -49,14 +54,41 @@
     align-items: center;
     justify-content: center;
 }
-/* .container >header >.header-bottom >.buttons{
-    display: inline-block;
-    width: 500px;
+
+.container >header >.header-bottom >h2{
+        color: orange;
+        font-size: 28px;
+        font-family: sans-serif;
+}
+.container >header >.header-bottom >p{
+    font-size: 18px;
+}
+.container >header >.header-bottom >.buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 .container >header >.header-bottom >.buttons >.button1{
-    margin-right: 30px;
-    width: 200px;
-} */
+    margin-left: 500px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+} 
+.container >header >.header-bottom >.buttons >.button2{
+    width: 150px;
+    margin-right: 500px;
+    height: 50px;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
 
 .container >.section1{
     display: flex;
@@ -76,6 +108,9 @@
     padding-bottom:20px;
     color: white;
 }
+::placeholder{
+    color: #ffff;
+}
 .container >.section1 >.form >input{
     padding: 20px;
     background-color: orange;
@@ -85,6 +120,7 @@
     margin-bottom: 10px;
     height: 40px;
     border-radius: 10px;
+    outline: none;
 }
 
 .container >.section1 >.form >#country{
@@ -105,6 +141,7 @@
     color: white;
     height: 40px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .container >.section1 >.text{
@@ -199,12 +236,14 @@
 }
 
 .container >.section3 >.bookTable >.book{
-    width:100%;
+    width:100px;
     height: 50px;
     margin-top:100px;
     background-color: orange;
     border: 1px solid transparent;
     border-radius: 10px;
+    color: #ffff;
+    cursor: pointer;
 }
 /* 
 .container >.section3 >.bookTable >.book{
@@ -287,6 +326,8 @@
 
 .container >.section5{
     display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
     margin-bottom: 50px;
 }
 
