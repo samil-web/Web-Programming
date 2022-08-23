@@ -86,7 +86,7 @@
 //     console.log(langs[i])
 // }
 
-let langs = ["c", "c#", "c++", "java"];
+// let langs = ["c", "c#", "c++", "java"];
 
 // langs.forEach(function(lang) {
 //     console.log(lang)
@@ -96,16 +96,17 @@ let langs = ["c", "c#", "c++", "java"];
 //     console.log(lang + i + arr)
 // })
 
-let obj = {
-  name: "samil",
-  surname: "samilov",
-  age: 33
-};
+// let obj = {
+//   name: "samil",
+//   surname: "samilov",
+//   age: 33
+// };
 
-for(let key in obj ) {
-    console.log(key)
-}
+// for(let key in obj ) {
+//     console.log(key)
+// }
 
-for(let i of langs) {
-    console.log(i)
-}
+// for(let i of langs) {
+//     console.log(i)
+// }
+console.log(window.outerHeight)
